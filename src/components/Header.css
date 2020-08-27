@@ -1,0 +1,42 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.Header-logo {
+  object-fit: contain;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.Header-searchContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  max-width: fit-content;
+  padding: 15px;
+  height: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 999px;
+}
+
+.Header-searchContainer > input {
+  border: none;
+  outline: none;
+  padding: 7px;
+  width: 250px;
+}
+
+.Header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 20px;
+}
